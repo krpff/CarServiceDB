@@ -94,7 +94,7 @@ public class MainApp extends Application {
         HBox root = new HBox(left, tabs);
         Scene scene = new Scene(root, 1150, 620);
         stage.setScene(scene);
-        stage.setTitle("Учёт обслуживания личного автомобиля: JDBC + PostgreSQL/MySQL");
+        stage.setTitle("Учёт обслуживания личного автомобиля");
         stage.show();
     }
 
