@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CarServiceDB.jnlp">
+  <information>
+    <title>CarServiceDB</title>
+    <vendor>mkurapov</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CarServiceDB.jar" size="24678" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.29.jar" size="2519547" download="eager" />
+    <jar href="lib/postgresql-42.7.10.jar" size="1137016" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="carservice.MainApp"  name="CarServiceDB" />
+  <update check="always"/>
+</jnlp>

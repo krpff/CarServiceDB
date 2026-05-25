@@ -1,0 +1,14 @@
+# NetBeans temporary files
+/build/
+/nbproject/private/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
